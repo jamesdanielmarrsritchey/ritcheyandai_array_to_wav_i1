@@ -1,0 +1,14 @@
+Name: Ritchey&AI Array To WAV
+Implementation: 1
+Version: 1
+Long Identifier: Ritchey&AI Array To WAV i1 v1
+Short Identifier: R&AIATWi1v1
+Description: An EXPERIMENTAL Javascript function for converting an array of numbers to PCM/WAV.
+History:
+ - Project started June 23, 2024.
+ - Version 1 completed June 23, 2024.
+Author: James Daniel Marrs Ritchey
+Licensing: This project is hereby licensed under the Ritchey Permissive License v16.
+Notes:
+ - This project was developed in part by using the tool GitHub Copilot Business.
+ - This program seems to be functioning as intended, but has had very limited testing. It is still considered experimental at this stage, so don't be surprised if it doesn't work correctly. You should vet the code before using it! For me, this project was about getting practice using AI-based tools, and generating example code which may aid me in the development of future projects.

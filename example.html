@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example</title>
+</head>
+<body>
+<div id='output'>Click here to convert the following number list to a WAV. Format the numbers as "#, #".</div>
+<!-- -250, -250, 500, 500 -->
+<textarea id='t1' style='min-width: 100%;min-height:50vh;display:block;'>
+
+</textarea>
+<script src="function.js"></script>
+<script>
+document.querySelector("#output").addEventListener("click", function() {
+    const element = document.querySelector("#t1");
+    if (element) {
+			const input_arr = readNumbersAndConvert('t1');
+    		arrayToWavAndDownload(input_arr);
+    }
+});
+</script>
+</body>
+</html>
